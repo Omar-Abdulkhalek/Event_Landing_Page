@@ -1,0 +1,157 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header.main{
+    height: 100vh;
+}
+
+header.main div.img-container{
+    height: 50%;
+}
+
+header.main div.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+}
+
+header.main div.text-container{
+    text-align: center;
+}
+
+header.main div.text-container h1{ 
+    
+    color: #F700D9;
+    background-image: -webkit-linear-gradient(0deg, #F700D9 0%, #9B0087 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+}
+
+
+header.main div.text-container h2{
+    
+    
+    color: #9B0087;
+    background-image: -webkit-linear-gradient(0deg, #9B0087 0%, #F100D4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+  
+}
+
+header.main div.text-container p {
+    font-size:1.7rem;
+    line-height: 40px;
+    font-weight: 800;
+}
+
+header.main div.text-container h3{
+    font-size:1.9rem;
+}
+
+div.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+section.frist-section p , section.second-section p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height:35px;
+}
+
+section.frist-section p span , section.second-section p span{
+    font-weight: 900;
+    font-weight: 1.55 rem;
+    
+}
+
+section.second-section div.pepole-container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.second-section div.pepole-container .same-width{
+    width: 25%;
+}
+
+section.second-section div.pepole-container .same-width .img-cont{
+    
+    width: 80%;
+    margin: auto;
+    
+}
+
+section.second-section div.pepole-container .same-width .img-cont img{
+    
+    width: 100%;
+    border-radius: 50%;
+}
+
+section.second-section div.pepole-container .same-width .text-cont{
+    text-align: center;  
+}
+
+section.second-section div.btn{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+section.second-section div.btn a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ED7D31;
+    padding: 15px 70px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+
+footer div.line{
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to right top, #ef0071, #fc345d, #ff564b, #ff743b, #fe902e);
+       
+}
+
+footer div.logo-icons{
+    background-color: #0D1720;
+    padding: 40px 0;
+}
+
+
+
+footer div.logo-icons div.img{
+    width: 10%;
+    margin: auto;
+}
+
+footer div.logo-icons div.img img{
+    width: 100%;
+}
+
+
+footer div.logo-icons div.icons{
+    width: 20%;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div.logo-icons div.icons i { 
+    font-size: 30px;
+    color: #fff;
+}
