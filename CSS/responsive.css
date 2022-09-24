@@ -59,6 +59,10 @@
         font-size: 12px;
     }
 
+    header.main div.img-container{
+        
+        background-size: 100% 60%;   
+    }
 
     section.second-section div.pepole-container{
     
