@@ -4,24 +4,24 @@ body{
 }
 
 header.main{
-    height: 100vh;
+    height: 50vh;
 }
 
 header.main div.img-container{
-    height: 50%;
-}
-
-header.main div.img-container img{
-    width: 100%;
     height: 100%;
-    object-fit:fill;
+    background-image: url(../img/event.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-header.main div.text-container{
+
+
+section.section-after-header div.text-container{
     text-align: center;
 }
 
-header.main div.text-container h1{ 
+section.section-after-header div.text-container h1{ 
     
     color: #F700D9;
     background-image: -webkit-linear-gradient(0deg, #F700D9 0%, #9B0087 100%);
@@ -29,11 +29,12 @@ header.main div.text-container h1{
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
+    font-size: 1.85rem;
   
 }
 
 
-header.main div.text-container h2{
+section.section-after-header div.text-container h2{
     
     
     color: #9B0087;
@@ -42,18 +43,19 @@ header.main div.text-container h2{
     -webkit-background-clip: text;
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
   
   
 }
 
-header.main div.text-container p {
-    font-size:1.7rem;
+section.section-after-header div.text-container p {
+    font-size:1.5rem;
     line-height: 40px;
     font-weight: 800;
 }
 
-header.main div.text-container h3{
-    font-size:1.9rem;
+section.section-after-header div.text-container h3{
+    font-size:1.7rem;
 }
 
 div.container{
@@ -71,7 +73,7 @@ section.frist-section p , section.second-section p{
 
 section.frist-section p span , section.second-section p span{
     font-weight: 900;
-    font-weight: 1.55 rem;
+    font-weight: 1.4 rem;
     
 }
 
@@ -80,11 +82,13 @@ section.second-section div.pepole-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 
 section.second-section div.pepole-container .same-width{
     width: 25%;
+    
 }
 
 section.second-section div.pepole-container .same-width .img-cont{
@@ -155,3 +159,10 @@ footer div.logo-icons div.icons i {
     font-size: 30px;
     color: #fff;
 }
+
+
+
+
+
+
+

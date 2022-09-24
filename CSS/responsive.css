@@ -1,0 +1,229 @@
+/* Media Query */
+
+/* extra small screen */
+@media all and (max-width:576px)
+{
+    html{
+        font-size: 10px;
+    }
+    
+
+    header.main div.img-container{
+        
+        background-size: 100% 80%;   
+    }
+  
+    section.second-section div.pepole-container{
+    
+       
+        flex-direction: column;
+    }
+    
+
+    section.second-section div.pepole-container .same-width{
+        width:100%;
+        margin: 20px 0;
+        
+    }
+
+    section.second-section div.pepole-container .same-width .text-cont h3{
+        font-size: 1.2rem;
+    }
+   
+    section.second-section div.pepole-container .same-width .text-cont h5{
+        font-size: 1rem;
+    }
+
+
+    section.second-section div.btn a {
+       
+        padding: 15px 50px;
+        font-size: 1.3rem;
+        
+    }
+
+    footer div.logo-icons div.img{
+        width: 30%;
+        
+    }
+}
+
+
+
+
+/*small screen */
+@media all and (min-width:576px) and (max-width:768px)
+{
+
+    html{
+        font-size: 12px;
+    }
+
+
+    section.second-section div.pepole-container{
+    
+       
+        flex-direction: column;
+    }
+
+
+    section.second-section div.pepole-container .same-width{
+        width:100%;
+        margin: 20px 0;
+        
+    }
+
+    section.second-section div.pepole-container .same-width .text-cont h3{
+        font-size: 1.4rem;
+    }
+   
+    section.second-section div.pepole-container .same-width .text-cont h5{
+        font-size: 1.2rem;
+    }
+
+    section.second-section div.btn a {
+       
+        padding: 15px 55px;
+        font-size: 1.4rem;
+        
+    }
+
+    footer div.logo-icons div.img{
+        width: 30%;
+        
+    }
+
+}
+
+
+
+
+
+/* medium screen */
+@media all and (min-width:768px) and (max-width:992px)
+{
+
+
+    html{
+        font-size: 14px;
+    }
+
+    
+    section.second-section div.pepole-container{
+    
+       
+        flex-direction: column;
+    }
+    
+
+    
+    section.second-section div.pepole-container .same-width{
+        width:100%;
+        margin: 20px 0;
+        
+    }
+
+    section.second-section div.pepole-container .same-width .text-cont h3{
+        font-size: 1.6rem;
+    }
+   
+    section.second-section div.pepole-container .same-width .text-cont h5{
+        font-size: 1.4rem;
+    }
+
+
+    section.second-section div.btn a {
+       
+        padding: 15px 60px;
+        font-size: 1.5rem;
+        
+    }
+
+    footer div.logo-icons div.img{
+        width: 25%;
+        
+    }
+}
+
+
+
+/* large screen */
+@media all and (min-width:992px) and (max-width:1200px)
+{
+
+    html{
+        font-size: 16px;
+    }
+
+    
+
+    section.second-section div.pepole-container{
+    
+        
+        align-items: unset;
+        
+    }
+
+    section.second-section div.pepole-container .same-width .text-cont h3{
+        font-size: 1.6rem;
+    }
+   
+    section.second-section div.pepole-container .same-width .text-cont h5{
+        font-size: 1.3rem;
+    }
+
+    section.second-section div.btn a {
+       
+        padding: 15px 70px;
+        font-size: 1.2rem;
+        
+    }
+
+    footer div.logo-icons div.img{
+        width: 28%;
+        
+    }
+
+}
+
+
+
+
+/* extra large screen */
+@media all and (min-width:1201px) 
+{
+
+
+    html{
+        font-size: 17px;
+    }
+
+    section.second-section div.pepole-container{
+    
+        
+        align-items: unset;
+        
+    }
+
+    section.second-section div.pepole-container .same-width .text-cont h3{
+        font-size: 1.5rem;
+    }
+   
+    section.second-section div.pepole-container .same-width .text-cont h5{
+        font-size: 1.2rem;
+    }
+
+    section.second-section div.btn a {
+       
+        padding: 15px 90px;
+        font-size: 1.4rem;
+        
+    }
+
+    footer div.logo-icons div.img{
+        width: 28%;
+        
+    }
+
+
+}
