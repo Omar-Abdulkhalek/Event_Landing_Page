@@ -95,13 +95,15 @@ section.second-section div.pepole-container .same-width .img-cont{
     
     width: 80%;
     margin: auto;
+    text-align: center;
     
 }
 
 section.second-section div.pepole-container .same-width .img-cont img{
     
-    width: 100%;
+    width: 70%;
     border-radius: 50%;
+    
 }
 
 section.second-section div.pepole-container .same-width .text-cont{
